@@ -1,0 +1,36 @@
+@import "reset.css";
+
+body {
+
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+  background-color: #143C75;
+}
+
+img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+ul {
+  width: 50%;
+  background-color: white;
+}
+li{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px gray solid ;
+  border-top: 1px gray solid ;
+  padding: 15px 0;
+}
+
+.userNameContainer{
+  display: inline-block;
+}
